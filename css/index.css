@@ -139,15 +139,15 @@ body .container .login {
   align-items: center;
   background: white;
   border-radius: 10px;
-  width: 484px;
-  height: 40vh;
+  width: 48.4ch;
+  height: 55vh;
 }
 body .container .login i {
   font-size: 4rem;
 }
 @media (max-width: 767.98px) {
   body .container .login {
-    width: 100%;
+    width: 70%;
   }
 }
 @media (max-height: 400px) {
@@ -160,7 +160,7 @@ body .container .login h1 {
 }
 @media (max-width: 767.98px) {
   body .container .login h1 {
-    font-size: 1.75rem;
+    font-size: 1rem;
   }
 }
 body .container .login .loginButton {
@@ -183,6 +183,9 @@ body .container .login a {
 }
 body .container .login a:hover {
   opacity: 0.2;
+}
+body .container .login p {
+  border-top: 1px solid grey;
 }
 body footer {
   display: flex;
