@@ -1,0 +1,90 @@
+body{
+    background-image: url("../images/postits.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
+    .container{
+        .flexDisplay(column, center, center);
+        height: 95vh;
+        width: 100%;
+
+        .login{
+            i{
+                font-size: 4rem;
+            }
+            .flexDisplay(column, space-evenly, center);
+            background: white;
+            border-radius: 10px;
+            width: 48.4ch;
+            height: 55vh;
+
+            @media @mobile{
+                width: 70%;
+            }
+
+            @media (max-height:400px){
+                height: 55vh
+            }
+
+            h1{
+                font-size: 2rem;
+                @media @mobile{
+                    font-size: 1rem;
+                }
+            }
+
+            .loginButton{
+                color: white;
+                background: @login-color;
+            }
+
+            .signup{
+                color:black;
+                background: @signup-color;
+            }
+
+            a{
+                .flexDisplay(row, center, center);
+                width: 70%;
+                height: 7.5vh;
+                border-radius:10px;
+                text-decoration: none;
+
+                .lightenOnHover(0.2);
+            }
+            p{
+                border-top: 1px solid grey;
+                padding-left: 3%;
+                padding-top: 2%
+            }
+        }
+
+    }
+
+    footer{
+        .flexDisplay(row, center, center);
+        width: 100%;
+        
+        nav{
+            .flexDisplay(row, space-between, center);
+            width: 33%;
+
+            @media @mobile{
+                width: 100%;
+                justify-content: space-around;
+            }
+            a{
+                text-decoration: none;
+                color: black;
+
+                .lightenOnHover(0.2);
+
+            }
+        }
+    }
+}
+
+
