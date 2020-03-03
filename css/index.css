@@ -188,6 +188,7 @@ body footer nav {
 @media (max-width: 767.98px) {
   body footer nav {
     width: 100%;
+    justify-content: space-around;
   }
 }
 body footer nav a {
