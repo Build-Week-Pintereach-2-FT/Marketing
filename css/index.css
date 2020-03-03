@@ -169,7 +169,7 @@ body .container .login a {
   text-decoration: none;
 }
 body .container .login a:hover {
-  opacity: 0.5;
+  opacity: 0.2;
 }
 body footer {
   display: flex;
@@ -196,5 +196,5 @@ body footer nav a {
   color: black;
 }
 body footer nav a:hover {
-  opacity: 0.5;
+  opacity: 0.2;
 }
