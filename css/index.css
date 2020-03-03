@@ -142,13 +142,26 @@ body .container .login {
   width: 484px;
   height: 40vh;
 }
+body .container .login i {
+  font-size: 4rem;
+}
 @media (max-width: 767.98px) {
   body .container .login {
     width: 100%;
   }
 }
+@media (max-height: 400px) {
+  body .container .login {
+    height: 55vh;
+  }
+}
 body .container .login h1 {
   font-size: 2rem;
+}
+@media (max-width: 767.98px) {
+  body .container .login h1 {
+    font-size: 1.75rem;
+  }
 }
 body .container .login .loginButton {
   color: white;

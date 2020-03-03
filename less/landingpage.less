@@ -12,6 +12,9 @@ body{
         width: 100%;
 
         .login{
+            i{
+                font-size: 4rem;
+            }
             .flexDisplay(column, space-evenly, center);
             background: white;
             border-radius: 10px;
@@ -22,8 +25,15 @@ body{
                 width: 100%;
             }
 
+            @media (max-height:400px){
+                height: 55vh
+            }
+
             h1{
                 font-size: 2rem;
+                @media @mobile{
+                    font-size: 1.75rem;
+                }
             }
 
             .loginButton{
