@@ -186,6 +186,7 @@ body .container .login a:hover {
 }
 body .container .login p {
   border-top: 1px solid grey;
+  padding-left: 3%;
 }
 body footer {
   display: flex;
