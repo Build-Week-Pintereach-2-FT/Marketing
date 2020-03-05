@@ -233,7 +233,7 @@ body .aboutContainer {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 95vh;
+  height: 87vh;
 }
 @media (max-width: 767.98px) {
   body .aboutContainer {
@@ -320,10 +320,5 @@ body .aboutContainer .info .infoBox p {
 @media (max-width: 918px) {
   body .aboutContainer .info .infoBox p {
     font-size: 0.75rem;
-  }
-}
-@media (max-width: 767.98px) {
-  body .aboutContainer .blank {
-    display: none;
   }
 }
