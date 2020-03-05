@@ -163,13 +163,9 @@ body .container .login h1 {
     font-size: 1rem;
   }
 }
-body .container .login .loginButton {
+body .container .login .homeButton {
   color: white;
   background: #008cff;
-}
-body .container .login .signup {
-  color: black;
-  background: #b9b9b9;
 }
 body .container .login a {
   display: flex;
@@ -180,6 +176,8 @@ body .container .login a {
   height: 7.5vh;
   border-radius: 10px;
   text-decoration: none;
+  color: white;
+  background: #008cff;
 }
 body .container .login a:hover {
   opacity: 0.2;
